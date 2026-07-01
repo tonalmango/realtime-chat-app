@@ -1,0 +1,14 @@
+.app-shell {
+  height: 100vh;
+}
+
+.chat-layout {
+  height: 100%;
+  display: flex;
+}
+
+@media (max-width: 640px) {
+  .sidebar {
+    display: none;
+  }
+}
